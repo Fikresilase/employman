@@ -35,6 +35,32 @@ export const AppleLogo = createIcon({
 		</g>
 	)
 });
+export const EditLogo = createIcon({
+	displayName: 'EditLogo',
+	viewBox: '0 0 20 20',
+	path: (
+	  <g width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+		<path
+		  d="M14.846 2.321c.378-.377.885-.582 1.414-.582s1.037.205 1.414.582l.995.995c.377.378.582.885.582 1.414s-.205 1.037-.582 1.414L6.853 17.154a1.993 1.993 0 0 1-1.06.555l-3.474.579a.5.5 0 0 1-.577-.577l.579-3.474a1.993 1.993 0 0 1 .555-1.06L14.846 2.321ZM13.432 3.735 4.183 12.983c-.191.191-.32.429-.371.69l-.405 2.43 2.43-.405c.261-.051.499-.18.69-.371l9.249-9.249-2.344-2.344Zm1.414-1.414 2.344 2.344.42-.42a.993.993 0 0 0 0-1.414l-.995-.995a.993.993 0 0 0-1.414 0l-.42.42Z"
+		  fill="currentColor"
+		/>
+	  </g>
+	),
+  });
+  export const TrashLogo = createIcon({
+	displayName: 'TrashLogo',
+	viewBox: '0 0 20 20',
+	path: (
+	  <g width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+		<path
+		  d="M6 4V3a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1h3.5a.5.5 0 0 1 0 1H17v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5H2.5a.5.5 0 0 1 0-1H6Zm1 0h6V3a1 1 0 0 0-1-1H8a1 1 0 0 0-1 1v1ZM5 5v12a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5H5Zm2.5 3a.5.5 0 0 1 .5.5V14a.5.5 0 0 1-1 0V8.5a.5.5 0 0 1 .5-.5ZM10 8a.5.5 0 0 1 .5.5V14a.5.5 0 0 1-1 0V8.5A.5.5 0 0 1 10 8Zm3.5.5a.5.5 0 0 1 1 0V14a.5.5 0 0 1-1 0V8.5Z"
+		  fill="currentColor"
+		/>
+	  </g>
+	),
+  });
+  
+	
 export const AndroidLogo = createIcon({
 	displayName: 'AndroidLogo',
 	viewBox: '0 0 16 18',

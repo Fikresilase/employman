@@ -118,7 +118,7 @@ function SignIn() {
             _active={googleActive}
             _focus={googleActive}>
             <Icon as={FcGoogle} w='20px' h='20px' me='10px' />
-            Sign in with Google
+            <a href="">Sign in with Google</a>
           </Button>
           <Flex align='center' mb='25px'>
             <HSeparator />
