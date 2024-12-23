@@ -29,10 +29,8 @@ export default function Footer() {
 				{' '}
 				&copy; {new Date().getFullYear()}
 				<Text as='span' fontWeight='500' ms='4px'>
-					Horizon UI. All Rights Reserved. Made with love by
-					<Link mx='3px' color={textColor} href='https://www.simmmple.com' target='_blank' fontWeight='700'>
-						Simmmple!
-					</Link>
+					Mebtech. All Rights Reserved.
+					
 				</Text>
 			</Text>
 			<List display='flex'>
@@ -41,7 +39,7 @@ export default function Footer() {
 						base: '20px',
 						md: '44px'
 					}}>
-					<Link fontWeight='500' color={linkColor} href='mailto:hello@simmmple.com'>
+					<Link fontWeight='500' color={linkColor} href=''>
 						Support
 					</Link>
 				</ListItem>
@@ -50,7 +48,7 @@ export default function Footer() {
 						base: '20px',
 						md: '44px'
 					}}>
-					<Link fontWeight='500' color={linkColor} href='https://www.simmmple.com/licenses'>
+					<Link fontWeight='500' color={linkColor} href=''>
 						License
 					</Link>
 				</ListItem>
@@ -59,12 +57,12 @@ export default function Footer() {
 						base: '20px',
 						md: '44px'
 					}}>
-					<Link fontWeight='500' color={linkColor} href='https://simmmple.com/terms-of-service'>
+					<Link fontWeight='500' color={linkColor} href=''>
 						Terms of Use
 					</Link>
 				</ListItem>
 				<ListItem>
-					<Link fontWeight='500' color={linkColor} href='https://www.blog.simmmple.com/'>
+					<Link fontWeight='500' color={linkColor} href=''>
 						Blog
 					</Link>
 				</ListItem>

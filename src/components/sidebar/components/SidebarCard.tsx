@@ -39,13 +39,13 @@ export default function SidebarDocs() {
 					textAlign='center'
 					px='10px'
 					mb='14px'>
-					Upgrade to PRO
+					Mebtech
 				</Text>
 				<Text fontSize='14px' color={'white'} px='10px' mb='14px' textAlign='center'>
-					Improve your development process and start doing more with Horizon UI PRO!
+					get back to the Home page to navigate more options
 				</Text>
 			</Flex>
-			<Link href='https://horizon-ui.com/pro'>
+			<Link href='https://mebtech.vercel.app'>
 				<Button
 					bg='whiteAlpha.300'
 					_hover={{ bg: 'whiteAlpha.200' }}
@@ -56,7 +56,7 @@ export default function SidebarDocs() {
 					fontSize='sm'
 					minW='185px'
 					mx='auto'>
-					Upgrade to PRO
+					Mebtech
 				</Button>
 			</Link>
 		</Flex>
